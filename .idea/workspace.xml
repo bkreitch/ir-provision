@@ -1,0 +1,739 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="52c3c239-9803-473b-9677-76e250fca35c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/ir-provision.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playbooks/infrared-core.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/beaker/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/beaker/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/beaker/defaults/main.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/beaker/handlers/main.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/beaker/meta/main.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/beaker/tasks/main.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/beaker/tests/inventory" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/beaker/tests/test.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/beaker/vars/main.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/environment/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/environment/meta/main.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/environment/setup/meta/main.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/environment/setup/tasks/main.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/environment/setup/templates/network.xml.j2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/environment/tasks/main.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/environment/teardown/meta/main.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/environment/teardown/tasks/main.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/environment/vars/centos-7.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/environment/vars/fedora.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/environment/vars/main.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/environment/vars/redhat.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/foreman/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/foreman/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/foreman/defaults/main.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/foreman/handlers/main.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/foreman/meta/main.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/foreman/tasks/main.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/foreman/tests/inventory" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/foreman/tests/test.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/foreman/vars/main.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/openstack/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/openstack/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/openstack/defaults/main.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/openstack/handlers/main.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/openstack/meta/main.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/openstack/tasks/main.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/openstack/tests/inventory" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/openstack/tests/test.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/openstack/vars/main.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/virsh/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/virsh/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/virsh/defaults/main.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/virsh/handlers/main.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/virsh/meta/main.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/virsh/tests/inventory" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/virsh/tests/test.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/virsh/vars/main.yml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/roles/provisioner/openstack/neutron/defaults/main.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/settings/beaker/beaker.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/settings/foreman/foreman.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/settings/openstack/openstack.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/settings/virsh/image/sample.yml.example" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/settings/virsh/topology/network/network.sample.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/ansible.ssh.config.j2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/inventory.j2" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/roles/provisioner/openstack/neutron/tasks/cleanup.yml" afterPath="$PROJECT_DIR$/roles/openstack/tasks/neutron/cleanup.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/roles/provisioner/openstack/neutron/tasks/main.yml" afterPath="$PROJECT_DIR$/roles/openstack/tasks/nova/main.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/roles/provisioner/openstack/neutron/tasks/setup.yml" afterPath="$PROJECT_DIR$/roles/openstack/tasks/neutron/setup.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/roles/provisioner/openstack/nova/defaults/main.yml" afterPath="$PROJECT_DIR$/roles/openstack/defaults/nova.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/roles/provisioner/openstack/nova/tasks/cleanup.yml" afterPath="$PROJECT_DIR$/roles/openstack/tasks/nova/cleanup.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/roles/provisioner/openstack/nova/tasks/cleanup_nodes.yml" afterPath="$PROJECT_DIR$/roles/openstack/tasks/nova/cleanup_nodes.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/roles/provisioner/openstack/nova/tasks/main.yml" afterPath="$PROJECT_DIR$/roles/openstack/tasks/neutron/main.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/roles/provisioner/openstack/nova/tasks/setup.yml" afterPath="$PROJECT_DIR$/roles/openstack/tasks/nova/setup.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/roles/provisioner/openstack/nova/tasks/setup_nodes.yml" afterPath="$PROJECT_DIR$/roles/openstack/tasks/nova/setup_nodes.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/roles/provisioner/virsh/tasks/main.yml" afterPath="$PROJECT_DIR$/roles/virsh/tasks/main.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/roles/provisioner/virsh/tasks/network.yml" afterPath="$PROJECT_DIR$/roles/virsh/tasks/network.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/roles/provisioner/virsh/tasks/setup.yml" afterPath="$PROJECT_DIR$/roles/virsh/tasks/setup.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/roles/provisioner/virsh/tasks/validate.yml" afterPath="$PROJECT_DIR$/roles/virsh/tasks/validate.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/roles/provisioner/virsh/tasks/vms.yml" afterPath="$PROJECT_DIR$/roles/virsh/tasks/vms.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/roles/provisioner/virsh/tasks/vms_0_import_disk.yml" afterPath="$PROJECT_DIR$/roles/virsh/tasks/vms_0_import_disk.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/roles/provisioner/virsh/tasks/vms_1_create_disk.yml" afterPath="$PROJECT_DIR$/roles/virsh/tasks/vms_1_create_disk.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/roles/provisioner/virsh/tasks/vms_2_install.yml" afterPath="$PROJECT_DIR$/roles/virsh/tasks/vms_2_install.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/roles/provisioner/virsh/tasks/vms_3_netip.yml" afterPath="$PROJECT_DIR$/roles/virsh/tasks/vms_3_netip.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/roles/provisioner/virsh/templates/ansible.ssh.config.j2" afterPath="$PROJECT_DIR$/roles/virsh/templates/ansible.ssh.config.j2" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/roles/provisioner/virsh/templates/network.xml.j2" afterPath="$PROJECT_DIR$/roles/virsh/templates/network.xml.j2" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/settings/beaker/beaker.spec" afterPath="$PROJECT_DIR$/spec/beaker.spec" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/settings/foreman/foreman.spec" afterPath="$PROJECT_DIR$/spec/foreman.spec" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/settings/openstack/neutron/default.yml" afterPath="$PROJECT_DIR$/roles/openstack/defaults/neutron.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/settings/openstack/openstack.spec" afterPath="$PROJECT_DIR$/spec/openstack.spec" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/settings/provisioner.spec" afterPath="$PROJECT_DIR$/spec/provisioner.spec" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/settings/topology/aio.yml" afterPath="$PROJECT_DIR$/roles/virsh/profiles/aio.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/settings/topology/ceph.yml" afterPath="$PROJECT_DIR$/roles/virsh/profiles/ceph.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/settings/topology/compute.yml" afterPath="$PROJECT_DIR$/roles/virsh/profiles/compute.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/settings/topology/contnet.yml" afterPath="$PROJECT_DIR$/roles/virsh/profiles/contnet.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/settings/topology/controller.yml" afterPath="$PROJECT_DIR$/roles/virsh/profiles/controller.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/settings/topology/loadbalancer.yml" afterPath="$PROJECT_DIR$/roles/virsh/profiles/loadbalancer.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/settings/topology/odl.yml" afterPath="$PROJECT_DIR$/roles/virsh/profiles/odl.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/settings/topology/swift.yml" afterPath="$PROJECT_DIR$/roles/virsh/profiles/swift.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/settings/topology/tester.yml" afterPath="$PROJECT_DIR$/roles/virsh/profiles/tester.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/settings/topology/undercloud.yml" afterPath="$PROJECT_DIR$/roles/virsh/profiles/undercloud.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/settings/virsh/image/fedora-23.yml" afterPath="$PROJECT_DIR$/roles/virsh/defaults/image.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/settings/virsh/topology/network/default.yml" afterPath="$PROJECT_DIR$/roles/virsh/defaults/network.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/settings/virsh/virsh.spec" afterPath="$PROJECT_DIR$/spec/virsh.spec" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/settings/virsh/virsh.yml" afterPath="$PROJECT_DIR$/roles/virsh/defaults/virsh.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/playbooks/cleanup.yml" afterPath="$PROJECT_DIR$/playbooks/cleanup.yml" />
+    </list>
+    <ignored path="ir-provision.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="ir-provision" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="foreman_provisioner.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/library/foreman_provisioner.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="beaker_provisioner.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/library/beaker_provisioner.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="provision.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/playbooks/provision.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="network.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/roles/virsh/tasks/network.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="inventory" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/roles/virsh/tests/inventory">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/roles/virsh/tests/test.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/roles/virsh/handlers/main.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="network.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/roles/virsh/defaults/network.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/roles/virsh/tasks/network.yml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="4" />
+    <option name="width" value="1272" />
+    <option name="height" value="975" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ir-provision" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ir-provision" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ir-provision" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ir-provision" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ir-provision" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="roles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="virsh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ir-provision" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ir-provision" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="roles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="virsh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ir-provision" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ir-provision" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="roles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="virsh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ir-provision" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ir-provision" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="roles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="virsh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ir-provision" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ir-provision" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="roles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="virsh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="profiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ir-provision" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ir-provision" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="roles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ir-provision" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ir-provision" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="playbooks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ir-provision" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ir-provision" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="library" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CabalRunConfiguration" factoryName="Haskell">
+      <module name="" />
+      <setting name="executableName" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="" />
+      <environmetVariables />
+      <method />
+    </configuration>
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="" />
+      <working_directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GoRunFileConfiguration" factoryName="Go Single File">
+      <module name="" />
+      <working_directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ir-provision" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ir-provision" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ir-provision" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ir-provision" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ir-provision" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ir-provision" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ir-provision" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="52c3c239-9803-473b-9677-76e250fca35c" name="Default" comment="" />
+      <created>1477879543240</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1477879543240</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="4" y="0" width="1272" height="975" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3813008" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cabal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41245595" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="GhcMod" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/library/foreman_provisioner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/beaker_provisioner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playbooks/provision.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings/foreman/foreman.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings/topology/compute.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-116">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/virsh/tests/inventory">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/virsh/tests/test.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/virsh/handlers/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/virsh/defaults/network.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/virsh/tasks/network.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
